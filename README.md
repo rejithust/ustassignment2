@@ -31,14 +31,4 @@ Scenarios" assignment. Each question gets its own folder with four files:
 | [Q13-strategy/](Q13-strategy/) | Q13 — Final Challenge: Prompting Strategy for a Consulting AI Assistant |
 | [appendix/test-log.md](appendix/test-log.md) | Consolidated test log across all 13 questions |
 
-## Assignment instructions (for reference)
 
-For every question:
-1. Write the full prompt (not bullet points — actual usable prompt).
-2. Explain: (a) why this structure, (b) why this prompting technique (zero-shot /
-   few-shot / CoT), (c) what failure modes it prevents.
-3. Provide at least one alternative prompt design.
-
-This repo additionally includes, per question, synthetic test inputs and simulated
-test runs so the prompt's behavior — including guardrails on ambiguous, contradictory,
-or adversarial input — can be inspected directly rather than taken on faith.
